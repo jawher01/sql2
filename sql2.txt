@@ -1,0 +1,9 @@
+INSERT INTO Product VALUES (P01,"samsing galaxy s20","smartphone",3299);
+INSERT INTO Product VALUES (P02,"asus notebook","pc",4599);
+
+INSERT INTO Custumer VALUES (c01,"ali",71321009);
+INSERT INTO Custumer VALUES (c02,"asma",77345823);
+
+
+INSERT INTO Orders(Customer_id,Product_id,OrderDate,Quantite,Total_amount) VALUES (c01,p01,NULL,2,9198);
+INSERT INTO OrdersOrders(Customer_id,Product_id,OrderDate,Quantite,Total_amount) VALUES (c02,p02,"28/05/2020",1,3299);
